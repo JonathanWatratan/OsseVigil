@@ -1,0 +1,43 @@
+{
+  "seed": 42,
+  "source_dataset_modified": false,
+  "source_dataset": "/Users/jonathan/Downloads/archive",
+  "original_images": 8811,
+  "retained_images": 5823,
+  "confirmed_exact_duplicate_groups": 1059,
+  "confirmed_exact_cross_split_groups": 345,
+  "confirmed_nonexact_near_duplicate_pairs": 2245,
+  "confirmed_duplicate_components": 2364,
+  "uncertain_perceptual_pairs": 198,
+  "quarantined_images": 296,
+  "excluded_redundant_duplicate_images": 2692,
+  "unresolved_label_conflict_components": 0,
+  "heuristic_source_label_conflict_groups": 3,
+  "class_distribution": {
+    "test": {
+      "cancer": 286,
+      "normal": 307
+    },
+    "train": {
+      "cancer": 2223,
+      "normal": 2406
+    },
+    "val": {
+      "cancer": 290,
+      "normal": 311
+    }
+  },
+  "known_cross_split_exact_groups_after": 0,
+  "known_cross_split_duplicate_components_after": 0,
+  "known_cross_split_source_groups_after": 0,
+  "evaluation_scope": "exploratory source-grouped image classification; not patient-independent or clinical",
+  "remaining_limitations": [
+    "No patient or study identifiers are available, so patient independence cannot be established.",
+    "Dataset-provided cancer/normal labels lack documented independent clinical verification.",
+    "Source family and anatomical region remain strongly associated with class labels.",
+    "Heuristic source IDs and automated perceptual thresholds can both make grouping errors.",
+    "Deduplication does not solve source, anatomy, acquisition, or spectrum confounding."
+  ],
+  "exploratory_training_gate_pass": true,
+  "exploratory_training_gate_reason": "Known exact/confirmed perceptual copies were deduplicated; uncertain matches and label-conflicting heuristic source groups were quarantined; source groups do not cross splits."
+}

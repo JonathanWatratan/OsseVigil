@@ -1,0 +1,4 @@
+source_id_heuristic,image_count,labels,paths
+10,3,cancer/normal,train/10_jpg.rf.5e1c08bc17a9eeb4662075434025d691.jpg | train/10_jpg.rf.6b6a63c71f37d0148762bc62f7b1910f.jpg | train/-10-_jpg.rf.889dd6fb56f8e29060845f66618fc3a1.jpg
+8,3,cancer/normal,train/-8-_jpg.rf.12b43a610c7acba9fd71f7614a17b853.jpg | train/8_jpg.rf.d24fac790a1615783832eeb6d8d975af.jpg | valid/8_jpg.rf.248ddec3e0282ed79ad5ce1eef7d9adb.jpg
+9,3,cancer/normal,train/9_jpg.rf.51db32b113cf2eee3aba6b388d3de70a.jpg | train/-9-_jpg.rf.f8a2b031970b17f534ae59298ce379c1.jpg | test/9_jpg.rf.55e821400f3f80a7ff4f0ca09312eb90.jpg
