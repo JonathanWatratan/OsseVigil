@@ -12,7 +12,7 @@ export function Logo({ compact = false, light = false }: LogoProps) {
       {!compact && (
         <span className="brand-copy">
           <strong className={light ? 'text-navy' : ''}>OSTEOINSIGHT</strong>
-          <span>Lesion Localization Research</span>
+          <span>X-Ray Classification Research</span>
         </span>
       )}
     </div>
